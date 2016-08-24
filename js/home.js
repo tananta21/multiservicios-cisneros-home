@@ -14,3 +14,4 @@ $(function() {
         menu.toggleClass('open-menu');
     })
 });
+

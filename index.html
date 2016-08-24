@@ -5,82 +5,220 @@
         <title>Multiservicios Cisneros | Home</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <link rel="stylesheet" href="css/menu.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/query.css">
         <script src="js/jquery-3.1.0.min.js"></script>
         <script src="js/home.js"></script>
         <link rel="stylesheet" href="librerias/bootstrap/css/bootstrap.css">
         <link rel="stylesheet" href="librerias/font-awesome/css/font-awesome.css">
-        <script src="librerias/bootstrap/js/bootstrap.min.js"></script>
         <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
     </head>
 
     <body>
     <div class="container-fluid" style="padding: 0rem">
-
         <!-- header y menu de la pagina-->
-        <header>
+        <header class="mimenu">
             <a href="#" id="logo">Logo</a>
             <nav id="menu">
                 <a href="#" class="nav-mobile" id="nav-mobile"></a>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Productos</a></li>
-                    <li><a href="#">Servicios</a></li>
-                    <li><a href="#">Conocenos</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#productos">Repuestos</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
                 </ul>
             </nav>
-                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                    </ol>
+        </header>
+        <section>
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Isectionrs -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
 
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner" role="listbox">
-                        <div class="item active">
-                            <img src="imagenes/slide1_ejemplo.png" alt="...">
-                            <div class="carousel-caption">
-                                ...
-                            </div>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="imagenes/slide1_ejemplo.png" alt="...">
+                        <div class="carousel-caption">
+                            ...
                         </div>
-                        <div class="item">
-                            <figure>
-                                <img align="center" src="imagenes/slide1_ejemplo.png" alt="...">
-                            </figure>
-                            <div class="carousel-caption">
-                                <h3>este soy yo</h3>
-                                <p>...</p>
-                            </div>
+                    </div>
+                    <div class="item">
+                        <figure>
+                            <img align="center" src="imagenes/slide1_ejemplo.png" alt="...">
+                        </figure>
+                        <div class="carousel-caption">
+                            <h3>este soy yo</h3>
+                            <p>...</p>
                         </div>
-                        <div class="item">
-                            <img src="imagenes/perfil.jpg" alt="...">
-                            <div class="carousel-caption">
-                                ...
-                            </div>
+                    </div>
+                    <div class="item">
+                        <img src="imagenes/perfil.jpg" alt="...">
+                        <div class="carousel-caption">
+                            ...
                         </div>
-
-                        ...
                     </div>
 
-                    <!-- Controls -->
-                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+                    ...
                 </div>
-        </header>
 
-        <section>
-
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
         </section>
-    </div>
 
+
+        <section id="productos" class="col-lg-12 section2">
+            <div class="col-lg-12 text-center" style="margin-top: 4rem">
+                <h2>Venta de Repuestos</h2>
+                <hr class="star-primary">
+            </div>
+            <div class="col-lg-12 text-center" style="margin-top: 1rem; font-size: 2rem">
+                <p>En multiservicios cisneros ofrecemos repuestos de todas las marcas
+                originales y con garantia </p>
+            </div>
+            <div class=" col-lg-12 lista_productos">
+                <div class="col-lg-4 col-sm-6 col-xs-12 section2_direction">
+                    <figure>
+                        <img src="imagenes/honda.jpg" alt="">
+                    </figure>
+                    <p class="descrption_services">
+                        Repuestos originales Honda
+                    </p>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-xs-12 section2_direction">
+                    <figure>
+                        <img src="imagenes/lifan.jpg" alt="">
+                    </figure>
+                    <p class="descrption_services">
+                        Repuestos originales Lifan
+                    </p>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-xs-12 section2_direction">
+                    <figure>
+                        <img src="imagenes/honda.jpg" alt="">
+                    </figure>
+                    <p class="descrption_services">
+                        Repuestos originales Lifan
+                    </p>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-xs-12 section2_direction">
+                    <figure>
+                        <img src="imagenes/lifan.jpg" alt="">
+                    </figure>
+                    <p class="descrption_services">
+                        Repuestos originales Lifan
+                    </p>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-xs-12 section2_direction">
+                    <figure>
+                        <img src="imagenes/lifan.jpg" alt="">
+                    </figure>
+                    <p class="descrption_services">
+                        Repuestos originales Lifan
+                    </p>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-xs-12 section2_direction">
+                    <figure>
+                        <img src="imagenes/honda.jpg" alt="">
+                    </figure>
+                    <p class="descrption_services">
+                        Repuestos originales Honda
+                    </p>
+                </div>
+
+            <div class="col-lg-12 text-center" style="margin-top: 4rem">
+                    <H2>ACA DEBERIA IR UN SLIDER PEQUEÑO CON LA IMAGEN DE LOS PRODUCTOS</H2>
+            </div>
+                <div class="col-lg-12 text-center" style="margin-top: 4rem">
+                    <button class="vermas">VER MAS..</button>
+                </div>
+
+
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+        <section id="servicios" class="col-lg-12 section3">
+            <div class="col-lg-12 text-center" style="margin-top: 4rem">
+                <h2>Nuestros Servicios</h2>
+                <hr class="star-primary">
+            </div>
+            <div class=" col-lg-12 lista_servicios">
+                <div class="col-lg-6 col-sm-6 col-xs-12 section2_direction">
+                    <i class="fa fa-laptop fa-5x"></i>
+                    <p class="descrption_services">Lorem ipsum dolor sit amet, consectetur <br>
+                        adipisicing elit. Animi, optio?</p>
+                    <div class="click">
+                        <button  class="vermas" >SISTEMA DE ARRASTRE</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-6 col-xs-12 section2_direction">
+                    <i class="fa fa-paint-brush fa-5x"></i>
+                    <p class="descrption_services">Lorem ipsum dolor sit amet, consectetur <br>
+                        adipisicing elit. Animi, optio?</p>
+                    <div class="click">
+                        <button  class="vermas" >SISTEMA ELECTRICO</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-6 col-xs-12 section2_direction">
+                    <i class="fa fa-phone fa-5x"></i>
+                    <p class="descrption_services">Lorem ipsum dolor sit amet, consectetur <br>
+                        adipisicing elit. Animi, optio?</p>
+                    <div class="click">
+                        <button  class="vermas">AUDITORIA</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-6 col-xs-12 section2_direction">
+                    <i class="fa fa-user fa-5x"></i>
+                    <p class="descrption_services">Lorem ipsum dolor sit amet, consectetur <br>
+                        adipisicing elit. Animi, optio?</p>
+                    <div class="click">
+                        <button  class="vermas" >MANTENIMIENTO DE MOTOR</button>
+                        <!--<h3 class="vermas" ><a href="">DESARROLLO WEB</a></h3>-->
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 text-center" style="margin-top: 4rem">
+                <div>
+                    <button class="vermas">VER MAS..</button>
+                </div>
+            </div>
+        </section>
+
+
+        <br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br>
+        <section id="contacto">
+            <h3>este es la seccion de contacto</h3>
+        </section>
+
+
+    </div>
+    <div>
+        <p name="txt1"></p>
+        <p name="txt1"></p>
+    </div>
 
     </body>
 </html>
