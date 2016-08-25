@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="css/query.css">
         <script src="js/jquery-3.1.0.min.js"></script>
         <script src="js/home.js"></script>
+        <script src="librerias/bootstrap/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="librerias/bootstrap/css/bootstrap.css">
         <link rel="stylesheet" href="librerias/font-awesome/css/font-awesome.css">
         <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
@@ -17,11 +18,13 @@
     <body>
     <div class="container-fluid" style="padding: 0rem">
         <!-- header y menu de la pagina-->
-        <header class="mimenu">
+        <section id="home">
+        <header  class="mimenu">
             <a href="#" id="logo">Logo</a>
             <nav id="menu">
                 <a href="#" class="nav-mobile" id="nav-mobile"></a>
                 <ul>
+                    <li><a href="#home">Home</a></li>
                     <li><a href="#productos">Repuestos</a></li>
                     <li><a href="#servicios">Servicios</a></li>
                     <li><a href="#nosotros">Nosotros</a></li>
@@ -76,8 +79,9 @@
                 </a>
             </div>
         </section>
+        </section>
 
-
+        <!-- SECCION DE PRODUCTOS-->
         <section id="productos" class="col-lg-12 section2">
             <div class="col-lg-12 text-center" style="margin-top: 4rem">
                 <h2>Venta de Repuestos</h2>
@@ -140,23 +144,17 @@
             <div class="col-lg-12 text-center" style="margin-top: 4rem">
                     <H2>ACA DEBERIA IR UN SLIDER PEQUEÑO CON LA IMAGEN DE LOS PRODUCTOS</H2>
             </div>
-                <div class="col-lg-12 text-center" style="margin-top: 4rem">
-                    <button class="vermas">VER MAS..</button>
+
+             <div class="col-lg-12 text-center" style="margin-top: 4rem">
+                    <button class="vermas" style="border-radius: 10px">VER MAS REPUESTOS
+                        <br><i class="fa fa-arrow-down"></i></button>
                 </div>
 
 
             </div>
         </section>
 
-
-
-
-
-
-
-
-
-
+        <!-- SECCION DE SERVICIOS -->
 
         <section id="servicios" class="col-lg-12 section3">
             <div class="col-lg-12 text-center" style="margin-top: 4rem">
@@ -164,7 +162,7 @@
                 <hr class="star-primary">
             </div>
             <div class=" col-lg-12 lista_servicios">
-                <div class="col-lg-6 col-sm-6 col-xs-12 section2_direction">
+                <div class="col-lg-3 col-sm-6 col-xs-12 section2_direction">
                     <i class="fa fa-laptop fa-5x"></i>
                     <p class="descrption_services">Lorem ipsum dolor sit amet, consectetur <br>
                         adipisicing elit. Animi, optio?</p>
@@ -172,15 +170,14 @@
                         <button  class="vermas" >SISTEMA DE ARRASTRE</button>
                     </div>
                 </div>
-                <div class="col-lg-6 col-sm-6 col-xs-12 section2_direction">
-                    <i class="fa fa-paint-brush fa-5x"></i>
-                    <p class="descrption_services">Lorem ipsum dolor sit amet, consectetur <br>
-                        adipisicing elit. Animi, optio?</p>
+                <div class="col-lg-3 col-sm-6 col-xs-12 section2_direction">
+                    <i class="fa fa-lightbulb-o fa-5x"></i>
+                    <p class="descrption_services">Ofrecemos servicio de reparacion del sistema electrico</p>
                     <div class="click">
                         <button  class="vermas" >SISTEMA ELECTRICO</button>
                     </div>
                 </div>
-                <div class="col-lg-6 col-sm-6 col-xs-12 section2_direction">
+                <div class="col-lg-3 col-sm-6 col-xs-12 section2_direction">
                     <i class="fa fa-phone fa-5x"></i>
                     <p class="descrption_services">Lorem ipsum dolor sit amet, consectetur <br>
                         adipisicing elit. Animi, optio?</p>
@@ -188,7 +185,7 @@
                         <button  class="vermas">AUDITORIA</button>
                     </div>
                 </div>
-                <div class="col-lg-6 col-sm-6 col-xs-12 section2_direction">
+                <div class="col-lg-3 col-sm-6 col-xs-12 section2_direction">
                     <i class="fa fa-user fa-5x"></i>
                     <p class="descrption_services">Lorem ipsum dolor sit amet, consectetur <br>
                         adipisicing elit. Animi, optio?</p>
@@ -199,9 +196,8 @@
                 </div>
             </div>
             <div class="col-lg-12 text-center" style="margin-top: 4rem">
-                <div>
-                    <button class="vermas">VER MAS..</button>
-                </div>
+                <button class="vermas" style="border-radius: 10px">VER MAS REPUESTOS
+                    <br><i class="fa fa-arrow-down"></i></button>
             </div>
         </section>
 
