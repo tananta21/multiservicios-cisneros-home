@@ -7,7 +7,7 @@ header, nav{
     display: block;
 }
 
-/* Definimos un ancho 100% y una altura fija para nuestro menú */
+/* Definimos un ancho 100% y una altura fija para nuestro menï¿½ */
 header{
     background: #22282e;
     height:60px;
@@ -18,7 +18,7 @@ header{
 
 /* El logo sera flotado a la izquierda */
 #logo{
-    background: url("../imagenes/logo_empresa.png") no-repeat center center;
+    background: url("../imagenes/otros/logo_empresa.png") no-repeat center center;
     display: block;
     float: left;
     margin: 6px 50px 0;
@@ -34,7 +34,7 @@ header{
 /* Quitamos estilos por defecto de el tag UL */
 #menu ul{
     list-style: none;
-    font-size: 14px;
+    font-size: 1.5rem;
 }
 
 /* Centramos y ponemos los textos en mayuscula */
@@ -53,10 +53,13 @@ header{
     height: 60px;
     line-height: 60px;
     padding: 0 26px;
+    transition: 0.5s;
 }
 #menu li a:hover{
     background: #151a1e;
-    color: #ffc700;
+    color: #18BC9C;
+    font-size: 1.7rem;
+    font-weight: bold;
 }
 
 /* Estilos #nav-mobile y lo ocultamos */
@@ -109,7 +112,7 @@ h2{
         float: none;
         padding-top: 60px;
     }
-    /* Convertimos nuestra lista de enlaces en un menú horizontal */
+    /* Convertimos nuestra lista de enlaces en un menï¿½ horizontal */
     #menu ul{
         -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.5);
         -moz-box-shadow: 0 1px 2px rgba(0,0,0,.5);
@@ -124,7 +127,7 @@ h2{
         float: none;
     }
 
-    /* Quitamos el borde del ultimo item del menú */
+    /* Quitamos el borde del ultimo item del menï¿½ */
     #menu li:last-child{ border-bottom: 0;}
     #menu li a{
         padding: 15px 0;
@@ -133,7 +136,7 @@ h2{
     }
     #menu li a:hover{background:#2a2d33}
 
-    /* Agregamos una animación al despligue del menú */
+    /* Agregamos una animaciï¿½n al despligue del menï¿½ */
     #menu ul.open-menu{
         max-height: 400px;
         -webkit-transition: max-height .4s;
